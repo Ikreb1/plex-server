@@ -1,0 +1,34 @@
+# .gitignore
+
+# Docker Compose files
+/docker-compose.yml
+
+# Plex configuration files
+/config
+
+# let not commit the media files
+/tvshows
+/movies
+
+# Temporary files and directories
+*.tmp
+*.bak
+*.swp
+*~
+._*
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and database files
+*.log
+*.sqlite
+*.db
+
+# Development environment files
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
